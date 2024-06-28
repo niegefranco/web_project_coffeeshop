@@ -27,7 +27,7 @@
   height: 39px;
   width: 105px;
 }
-.nav_links {
+.nav__links {
   display: flex;
   font-family: inter, Arial, sans-serif;
   font-style: normal;
