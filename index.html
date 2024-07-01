@@ -96,7 +96,56 @@
             </li>
           </ul>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h3 class="reservation__title">Reservar uma mesa</h3>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="naming">Nome*</label>
+              <input
+                class="form__input form__input_el_name"
+                type="text"
+                id="naming"
+                placeholder="Nome"
+              />
+
+              <label class="form__label" for="numbering"
+                >Número de convidados*</label
+              >
+              <input
+                class="form__input form__input_el_number"
+                type="number"
+                min="1"
+                max="8"
+                id="numbering"
+                placeholder="1-8"
+              />
+
+              <label class="form__label" for="dating">Data e Hora*</label>
+              <input
+                class="form__input form__input_el_date"
+                type="date"
+                id="dating"
+                placeholder="mm/dd/aaaa"
+              />
+
+              <label class="form__label" for="emailing">Seu email*</label>
+              <input
+                class="form__input form__input_el_email"
+                type="email"
+                id="emailing"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <button class="form__button form__input">Reservar uma mesa</button>
+            <label class="form__label form__label-checkbox" id="concording">
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                for="concording"
+              />Concordo com os termos de uso
+            </label>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
