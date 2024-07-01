@@ -150,12 +150,11 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 0 auto;
+  margin: 0 auto 80px;
 }
 .reservation__form {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
 }
 
 .form__label {
