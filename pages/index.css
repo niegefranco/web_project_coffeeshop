@@ -51,7 +51,7 @@
 }
 .header__span-accent {
   display: flex;
-  font-family: noto serif, "Times New Roman", serif;
+  font-family: "noto serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 58px;
@@ -61,7 +61,7 @@
 .header__description {
   max-width: 683px;
   margin-top: 28px;
-  font-family: noto serif, "Times New Roman", serif;
+  font-family: "noto serif", "Arial", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -101,6 +101,7 @@
   background-size: cover;
   background-color: #0a2750;
   padding: 100px 80px 215px;
+  color: #838383;
 }
 
 .recipes__title {
@@ -171,16 +172,19 @@
 .form__fieldset {
   display: flex;
   flex-direction: column;
-
+  border: none;
   padding: 0;
   width: 385px;
 }
 .form__input {
   border-radius: 4px;
   margin-top: 0;
-  color: #ffffff;
   margin-bottom: 32px;
   height: 60px;
+  font-family: Inter;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 .form__button {
   display: flex;
@@ -192,6 +196,11 @@
   justify-content: center;
   align-items: center;
   font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
 }
 .form__button:hover {
   opacity: 70%;
@@ -211,4 +220,7 @@
 .form__input_el_email {
   margin-top: 15px;
   font-size: 20px;
+}
+.placeholder {
+  color: #838383;
 }
