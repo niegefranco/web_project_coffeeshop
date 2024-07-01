@@ -204,4 +204,10 @@
 }
 .form__label-checkbox {
   display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+.form__input_el_email {
+  margin-top: 15px;
+  font-size: 20px;
 }
