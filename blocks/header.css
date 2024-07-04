@@ -29,6 +29,10 @@
   list-style-type: none;
 }
 .nav__link {
+  color: #000000;
+}
+.nav__link:hover {
+  color: #2f80ed;
 }
 .header__title {
   max-width: 709px;

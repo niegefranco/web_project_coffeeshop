@@ -9,6 +9,8 @@
   align-items: center;
   background-color: #d9e7ff;
   padding: 100px 0 120px;
+  z-index: 1;
+  position: relative;
 }
 .reservation__title {
   font-family: Inter;
