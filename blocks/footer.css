@@ -35,7 +35,8 @@
   font-weight: bold;
   font-size: 16px;
   color: #ffffff;
-  line-height: 0;
+
+  line-height: 20px;
 }
 .footer__list {
   padding-left: 0;
@@ -50,7 +51,7 @@
   color: #ffffff;
   column-gap: 10px;
   align-items: center;
-  margin-top: 16px;
+  margin-bottom: 16px;
 }
 .footer__social-icon {
   width: 16px;
