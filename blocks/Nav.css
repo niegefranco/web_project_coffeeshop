@@ -19,7 +19,11 @@
 }
 .nav__link {
   color: #000000;
+  text-decoration: none;
 }
 .nav__link:hover {
   color: #2f80ed;
+}
+.nav__link:focus {
+  color: #c1c1c1;
 }
