@@ -1,1 +1,5 @@
 # Triple Espresso
+Projeto WEB Project Coffeeshop - Html e CSS Avançado.
+
+Descrição do Projeto - Neste projeto, fiz um site de um coffeeshop com links que te levam até as área correspondentes. Também foi adicionado videos com receitas para interagir com o usuário do site. também foi construido um formulário para as reservas de mesa no estabelecimento, facilitando assim a organização e agilizando o atendimento do cliente. Um rodapé interativo, com links para as redes sociais do coffeeshop também foram anexadas ao site. Foram utilizadas ferramentas de adição de links, adição de imagens, links externos para redes sociais, preenchimento de formulários, importação de videos do Youtube e botões.
+Planos de melhoria - Nas melhorias futuras para a página, quero adicionar uma biblioteca com artigos de diversas áreas para a pessoa ler enquanto toma o seu café. Também poderia ser adicionado videos de preparos em portugues. Outra melhoria bastante significativa seria a adição de uma seção para a pessoa comentar oque achou do local e também disponibilizar opiniões positivas sobre o coffeeshop.
